@@ -8,6 +8,8 @@ dependencies = [
     "bcrypt==4.0.1",
     "fastapi>=0.129.0",
     "passlib>=1.7.4",
+    "pyjwt>=2.11.0",
+    "python-multipart>=0.0.22",
     "sqlalchemy>=2.0.46",
     "uvicorn>=0.40.0",
 ]
