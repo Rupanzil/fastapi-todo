@@ -12,3 +12,4 @@ wheels/
 # VS Code settings
 .vscode
 .env
+master_doc.md
