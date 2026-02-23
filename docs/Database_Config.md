@@ -79,7 +79,7 @@ flowchart TD
     Dialect[("Postgres Dialect")]:::sqlalchemy
     SM("sessionmaker(bind=engine)"):::session
     Base("declarative_base()"):::sqlalchemy
-    Models["Python Class Models (models.py)\nInherit from Base"]:::session
+    Models["Python Class Models (models.py)<br/>Inherit from Base"]:::session
     DBase[(PostgreSQL Database)]:::db
 
     URL --> Eng
