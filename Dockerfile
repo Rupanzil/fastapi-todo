@@ -17,4 +17,4 @@ RUN uv pip install --system .
 WORKDIR /app/todoapp
 
 # 7. Start the FastAPI server (assuming your main file is main.py and app instance is app)
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--proxy-headers", "--forwarded-allow-ips", "*"]
