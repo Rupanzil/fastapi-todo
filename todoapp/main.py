@@ -8,7 +8,7 @@ from routers import auth, todos, admin, users
 app = FastAPI()
 
 origins = [
-    "https://di-todo-app.vercel.app"
+    "https://di-todo-app.vercel.app",
     "http://localhost",
     "http://localhost:5173",
     "http://localhost:5174",
